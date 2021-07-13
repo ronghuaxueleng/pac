@@ -1,0 +1,11 @@
+# Output
+gfwlist.txt
+release-info.md
+*.pac
+dist/
+
+# Python
+__pycache__/
+
+# Other
+tmp*
