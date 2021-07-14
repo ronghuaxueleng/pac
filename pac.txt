@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-  if (dnsDomainIs(host, "kd.youth.cn") || dnsDomainIs(host, "ios.baertt.com")) {
+  if (dnsDomainIs(host, "kd.youth.cn") || dnsDomainIs(host, "kandian.wkandian.com")) {
     return "PROXY 8.131.240.169:8101";
   }
   return "DIRECT";
